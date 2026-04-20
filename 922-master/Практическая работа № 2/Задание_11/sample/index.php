@@ -12,14 +12,22 @@
 	<h2>Слабая типизация</h2>
 	
 	<?php
-		$VarStr = 'Слабая типизация PHP';
+$VarStr = 'Слабая типизация PHP';
+const CONSTSTR = 'Слабая типизация PHP';
+define("ARRSTR", array('Слабая типизация PHP'));
 
-		const CONSTSTR = 'Слабая типизация PHP';
+echo "<h2>Результаты проверки var_dump():</h2>";
+echo "<pre>";
 
-		define("ARRSTR", array('Слабая типизация PHP'));
+echo "Переменная \$VarStr: ";
+var_dump($VarStr);
+echo "\nКонстанта CONSTSTR: ";
+var_dump(CONSTSTR);
+echo "\nКонстанта-массив ARRSTR: ";
+var_dump(ARRSTR);
 
-	?>
-	
+echo "</pre>";
+?>
 
 </body>
 </html>
