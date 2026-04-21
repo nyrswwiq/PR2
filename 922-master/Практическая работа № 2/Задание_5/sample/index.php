@@ -20,12 +20,12 @@ $rub_to_cny = 0.09;
 $rubles = $dollars * $usd_to_rub;
 $yuan = $rubles * $rub_to_cny;
 
-echo "Доллары" $dollars;
-echo "Доллар в рубль" $usd_to_rub;
-echo "Рубль в юань" $rub_to_cny;
+echo "Доллары" , $dollars;
+echo "Доллар в рубль" , $usd_to_rub;
+echo "Рубль в юань" , $rub_to_cny;
 
-echo "Сумма в рублях " $rubles;
-echo "Сумма в юанях " $yuan;
+echo "Сумма в рублях " , $rubles;
+echo "Сумма в юанях " , $yuan;
 
 ?>
 

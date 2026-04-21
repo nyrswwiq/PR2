@@ -18,6 +18,13 @@
         "LP, кассета, CD, SACD",
         "Платиновый (USA), Платиновый (GBR)"
     ];
+
+    echo ALBUM_DATA[0];
+    echo ALBUM_DATA[1];
+    echo ALBUM_DATA[2];
+    echo ALBUM_DATA[3];
+    echo ALBUM_DATA[4];
+    echo ALBUM_DATA[5];
 	?>
 		
 
